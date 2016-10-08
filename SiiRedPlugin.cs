@@ -44,7 +44,7 @@ namespace SiiRed
         public void getResults(List<IInputData> inputDataList, List<ICatItem> resultsList)
         {
             String req = inputDataList[0].getText();
-            if (req.StartsWith("rr"))
+            if (req.StartsWith("rm"))
             {
                 String[] parts = req.Split(new Char[]{' '}, 2);
 
